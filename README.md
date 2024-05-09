@@ -1,7 +1,6 @@
 # Google Cloud Platform (GCP)
 
-## Exam Dumps --- Prepare from it
-https://www.itexams.com/exam/Associate-Cloud-Engineer  
+## Exam Dumps --- Prepare from it  
 https://www.examtopics.com/exams/google/associate-cloud-engineer/view/  
 https://github.com/Ditectrev/Google-Cloud-Platform-GCP-Associate-Cloud-Engineer-Practice-Tests-Exams-Questions-Answers?tab=readme-ov-file  
 
