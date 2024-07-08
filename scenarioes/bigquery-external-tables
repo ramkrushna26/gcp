@@ -1,0 +1,7 @@
+Bigquery supports analytics on data through external tables from Cloud Storage and Bigtable. It is perfect for this use case.  
+It suggests creating two separate BigQuery external tables on Cloud Storage and Cloud Bigtable.  
+By doing so, the data from both sources can be directly queried and joined in BigQuery without the need for additional data movement or processing.  
+The join can be performed using the user fields, and appropriate filters can be applied to retrieve the required data efficiently.  
+This approach minimizes data movement, reduces processing overhead, and provides an efficient way to join data from both Cloud Spanner and Cloud Bigtable.
+
+https://cloud.google.com/bigquery/docs/external-data-sources  
