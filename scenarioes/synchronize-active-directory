@@ -3,3 +3,11 @@ Using Google Cloud Directory Sync (GCDS) allows for the synchronization of users
 
 https://tools.google.com/dlpage/dirsync/  
 https://cloud.google.com/architecture/identity/federating-gcp-with-active-directory-introduction  
+
+  
+setting Google as the SSO Service provider will enable users to log in to their GSuite account with their SSO credentials.  
+It suggests setting up SSO with a third-party identity provider in Cloud Identity with Google as a service provider.  
+This option aligns with the scenario described in the question, where the company is using Active Directory Federation Service as its SAML identity provider.  
+By setting up SSO with a third-party identity provider (such as Active Directory Federation Service) and configuring Google as the service provider, users would be able to log in to Cloud Identity using their Active Directory credentials.  
+
+https://developer.okta.com/docs/concepts/saml/  
