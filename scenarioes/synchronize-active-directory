@@ -11,3 +11,4 @@ This option aligns with the scenario described in the question, where the compan
 By setting up SSO with a third-party identity provider (such as Active Directory Federation Service) and configuring Google as the service provider, users would be able to log in to Cloud Identity using their Active Directory credentials.  
 
 https://developer.okta.com/docs/concepts/saml/  
+https://support.google.com/a/answer/60224?hl=en   
