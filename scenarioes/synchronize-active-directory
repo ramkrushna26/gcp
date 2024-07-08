@@ -1,0 +1,5 @@
+Google Cloud Directory Sync enables administrators to synchronize users, groups, and other data from an Active Directory/LDAP service to their Google Cloud domain directory.   
+Using Google Cloud Directory Sync (GCDS) allows for the synchronization of users from an organization's Active Directory into Cloud Identity. This ensures that all users in the organization, regardless of their location, will have their accounts managed and controlled through Active Directory.  
+
+https://tools.google.com/dlpage/dirsync/  
+https://cloud.google.com/architecture/identity/federating-gcp-with-active-directory-introduction  
