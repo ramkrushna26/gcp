@@ -1,0 +1,7 @@
+workspaces is made for monitoring multiple projects.  
+Creating a workspace under project A would allow you to have a centralized dashboard where you can monitor the CPU, memory, and disk of all three projects (A, B, and C) together.  
+This option provides a single dashboard solution for monitoring and analysis of all projects.  
+  
+https://cloud.google.com/blog/products/management-tools/using-stackdriver-workspaces-help-manage-your-hybrid-and-multicloud-environment  
+https://cloud.google.com/monitoring/settings  
+  
