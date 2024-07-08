@@ -1,0 +1,3 @@
+you can add new types of instances to the GKE cluster by adding node pools. It will not cause any downtime to the existing cluster.  
+Creating a new Node Pool with the n2-highmem-16 machine type allows for the deployment of new pods on the same cluster.  
+This option does not involve any downtime as the existing pods can continue running on the current nodes while the new pods are deployed on the new Node Pool
