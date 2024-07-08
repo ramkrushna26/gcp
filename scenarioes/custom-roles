@@ -1,0 +1,5 @@
+it combines the best practice of creating a custom role with the added management benefit of using groups.  
+By removing delete permissions in a custom role and then adding users to a group that is assigned this custom role, you achieve a more scalable and manageable approach to permissioning. Groups allow for easier updates to permissions and user management, which is particularly beneficial in larger teams or organizations where membership and roles may change frequently.  
+
+https://cloud.google.com/bigquery/docs/access-control  
+https://cloud.google.com/bigquery/docs/access-control-basic-roles#overview  
