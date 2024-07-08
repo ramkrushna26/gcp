@@ -1,0 +1,7 @@
+preemptible VMs can provide up to 80% discount over normal VMs if the workloads are fault-tolerant.  
+It proposes running the batch job in a simulation of maintenance events.  
+This allows for testing if the job can still run properly even if some VMs get destroyed.  
+If the test is successful, preemptible N1 Standard VMs can be used for future jobs.  
+Preemptible VMs are significantly cheaper than regular VMs, helping to reduce costs.  
+
+https://cloud.google.com/spot-vms  
