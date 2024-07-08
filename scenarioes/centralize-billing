@@ -1,4 +1,4 @@
 you can run an analysis on Bigquery after exporting the billing reports from all projects to the same dataset.  
 It suggests using Billing data export to export the billing data to BigQuery and then create a Data Studio dashboard for visualization.  
 This option allows for the centralization of all costs incurred from different teams and billing accounts, providing a single visual representation for the finance team  
-https://cloud.google.com/billing/docs/how-to/export-data-bigquery
+[!https://cloud.google.com/billing/docs/how-to/export-data-bigquery]
