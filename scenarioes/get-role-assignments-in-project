@@ -1,0 +1,6 @@
+viewing the role assignments in the command line is the fastest and easiest way to check who has what role.  
+Running the command "gcloud projects get-iam-policy" provides a comprehensive view of the current role assignments within a GCP project.  
+This command retrieves the IAM policy for a project and displays all the role assignments, which include the project owner role.  
+This allows the security team to inspect and determine who has the project owner role in the GCP project.
+
+https://groups.google.com/g/google-cloud-dev/c/Z6sZs7TvygQ?pli=1  
