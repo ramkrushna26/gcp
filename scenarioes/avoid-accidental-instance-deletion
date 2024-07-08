@@ -1,0 +1,10 @@
+you can protect specific VM instances from deletion by setting the deletionProtection property on an Instance resource.  
+Enabling deletion protection on the instance addresses the specific concern of preventing other teams from accidentally causing downtime.  
+When deletion protection is enabled, it adds an additional confirmation step to the deletion process, preventing accidental deletion of the instance by other teams.  
+This helps safeguard the compute resources hosting the customer-facing website from accidental disruptions or downtime caused by other teams' actions.  
+  
+https://cloud.google.com/compute/docs/instances/preventing-accidental-vm-deletion  
+  
+sole-tenant node, provides dedicated physical resources to a project, which ensures that resources on that server are only used by your project and not by any other project in the same project.  
+However, it does not prevent other teams from accidentally causing downtime on the application.  
+Also, it is important to note that sole-tenant is applicable project-wise and in this case, everyone is on the same project and hence it makes sense to use Enable detection protection on the instance.
