@@ -1,0 +1,7 @@
+the main issue is the depletion of available IP addresses in the subnet used by the Google Kubernetes Engine (GKE) clusters.  
+By expanding the CIDR range of the subnet, you're essentially increasing the pool of available IP addresses within that subnet.  
+This expansion allows for accommodating additional nodes in the existing GKE clusters without requiring the complexity of creating new subnets or VPCs.  
+This solution ensures scalability within the current setup.  
+As the company grows and requires more resources within the GKE clusters, having an expanded CIDR range provides the flexibility to add more nodes without hitting IP address limitations.  
+
+https://cloud.google.com/kubernetes-engine/docs/concepts/alias-ips 
