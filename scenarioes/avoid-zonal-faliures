@@ -1,0 +1,5 @@
+In order to remediate the problem of a single point of failure, we have to replicate VMs within multiple zones.  
+It leverages the concept of geographical redundancy by creating resources in a different zone, us-central1-b, which ensures that the app does not go down in case of zonal failure.  
+By setting up a load balancer, the traffic can be balanced across both zones, providing high availability at minimum costs.
+
+https://cloud.google.com/compute/docs/regions-zones#choosing_a_region_and_zone  
