@@ -1,0 +1,13 @@
+The datastore emulator is installed using apt and not gcloud.  
+When you install SDK using apt Cloud SDK Component Manager is disabled and you need to install extra packages again using apt.  
+  
+The google-cloud-sdk-datastore-emulator component provides a local emulator for Cloud Datastore. By installing this component using the apt-get install command, you can set up a local testing environment that emulates Cloud Datastore. This way, you can test your HRMS software locally without the need to deploy it to GCP. The emulator simulates Cloud Datastore behavior, allowing you to perform data operations locally during development and testing.  
+  
+"google-cloud-sdk-datastore-emulator" component allows you to run a local emulator for Cloud Datastore, which can be used to test the application without deploying it to GCP.  
+  
+As per the question, the Cloud SDK was installed from the Google Cloud Ubuntu package repository; hence, to install the datastore emulator, we should use the command in Option-C.  
+
+When you install SDK using apt Cloud the sdk component manager is disabled and we need to install extra packages again using the apt command.  
+
+https://cloud.google.com/datastore/docs/tools/datastore-emulator  
+https://cloud.google.com/sdk/docs/components#managing_cloud_sdk_components  
