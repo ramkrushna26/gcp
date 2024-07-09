@@ -1,0 +1,5 @@
+an instance without a public IP address is not accessible through the internet.  
+Creating the instance without a public IP address ensures that no traffic from the public internet can be routed to it.  
+By not assigning a public IP address, the VM can only be accessed through private IP addresses within the network.  
+
+https://medium.com/google-cloud/how-to-ssh-into-your-gce-machine-without-a-public-ip-4d78bd23309e  
