@@ -1,0 +1,7 @@
+Node auto-provisioning is a mechanism of the cluster autoscaler, which scales on a per-node pool basis.  
+With node auto-provisioning enabled, the cluster autoscaler can extend node pools automatically based on the specifications of unschedulable Pods.  
+Using the GKE cluster's node auto-provisioning feature allows for dynamically provisioning nodes with GPUs only when they are needed. This helps optimize cost as resources are only allocated as necessary.  
+
+  
+
+https://cloud.google.com/kubernetes-engine/docs/how-to/node-auto-provisioning
