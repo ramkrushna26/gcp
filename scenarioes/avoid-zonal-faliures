@@ -3,3 +3,7 @@ It leverages the concept of geographical redundancy by creating resources in a d
 By setting up a load balancer, the traffic can be balanced across both zones, providing high availability at minimum costs.
 
 https://cloud.google.com/compute/docs/regions-zones#choosing_a_region_and_zone  
+  
+
+Default Zone:  
+https://cloud.google.com/compute/docs/gcloud-compute#set-default-region-zone-environment-variables
